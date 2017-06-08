@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@color/background1"
+        android:weightSum="1"
+        android:layout_weight="0.26">
+
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="200dp"
+            android:maxWidth="142dp"
+            android:maxHeight="142dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:layout_weight="0.92" />
+
+        <TextView
+            android:text="Noname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextName"
+            android:layout_weight="0.32"
+            android:textColor="@color/white"
+            android:textSize="42sp"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Email"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:gravity="center_horizontal"
+            android:textColor="?attr/colorControlNormal"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="dewni.matheehsa@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEmail"
+        android:gravity="center_horizontal"
+        android:textSize="22sp"
+        android:textColor="@color/background1" />
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_height= "2dp"
+        android:background="?attr/colorControlHighlight"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="PIN code"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView11"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="8888"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:textColor="@color/background1"/>
+
+    <View
+        android:id="@+id/SplitLine_hor2"
+        android:layout_height= "2dp"
+        android:background="?attr/colorControlHighlight"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Password"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView13"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="updated recently"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.27"
+        android:textColor="@color/background1"
+        android:textStyle="normal|italic" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/butLogout"
+        android:layout_weight="0.26"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@string/btn_logout" />
+
+
+</LinearLayout>
+
+
